@@ -1,6 +1,6 @@
 {
   "name": "get-set-props",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "List of getter/setter properties for JavaScript types",
   "license": "MIT",
   "repository": "dustinspecker/get-set-props",
