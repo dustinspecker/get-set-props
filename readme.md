@@ -4,7 +4,7 @@
 
 It's just a [JSON file](get-set-props.json) and can be used wherever.
 
-** Forked from [Sindre Sorhus](http://sindresorhus.com)' [proto-props](https://github.com/sindresorhus/proto-props)
+**Forked from [Sindre Sorhus](http://sindresorhus.com)' [proto-props](https://github.com/sindresorhus/proto-props)**
 
 
 ## Install
