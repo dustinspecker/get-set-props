@@ -1,38 +1,35 @@
-# proto-props [![Build Status](https://travis-ci.org/sindresorhus/proto-props.svg?branch=master)](https://travis-ci.org/sindresorhus/proto-props)
+# get-set-props [![Build Status](https://travis-ci.org/dustinspecker/get-set-props.svg?branch=master)](https://travis-ci.org/dustinspecker/get-set-props)
 
-> List of prototype properties for [JavaScript types](https://github.com/sindresorhus/js-types)
+> List of getter/setter properties for [JavaScript types](https://github.com/sindresorhus/js-types)
 
-It's just a [JSON file](proto-props.json) and can be used wherever.
+It's just a [JSON file](get-set-props.json) and can be used wherever.
+
+** Forked from [Sindre Sorhus](http://sindresorhus.com)' [proto-props](https://github.com/sindresorhus/proto-props)
 
 
 ## Install
 
 ```
-$ npm install --save proto-props
+$ npm install --save get-set-props
 ```
 
 
 ## Usage
 
 ```js
-var protoProps = require('proto-props');
+var getSetProps = require('get-set-props');
 
-console.log(protoProps);
+console.log(getSetProps);
 /*
 {
 	Array: [
 		'length',
-		'constructor',
-		'toString',
-		'toLocaleString',
-		'join',
-		'pop',
-		...
 	],
 	ArrayBuffer: [
-		'constructor',
-		'byteLength',
-		'slice'
+	],
+	...
+	Error: [
+		'stack'
 	],
 	...
 }
@@ -51,4 +48,4 @@ $ npm run generate
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Dustin Specker](https://github.com/dustinspecker)

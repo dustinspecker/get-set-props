@@ -1,13 +1,13 @@
 {
-  "name": "proto-props",
-  "version": "0.2.0",
-  "description": "List of prototype properties for JavaScript types",
+  "name": "get-set-props",
+  "version": "0.0.0",
+  "description": "List of getter/setter properties for JavaScript types",
   "license": "MIT",
-  "repository": "sindresorhus/proto-props",
+  "repository": "dustinspecker/get-set-props",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Dustin Specker",
+    "email": "DustinSpecker@DustinSpecker.com",
+    "url": "github.com/dustinspecker"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -16,9 +16,9 @@
     "test": "xo && node test.js",
     "generate": "node generate.js"
   },
-  "main": "proto-props.json",
+  "main": "get-set-props.json",
   "files": [
-    "proto-props.json"
+    "get-set-props.json"
   ],
   "keywords": [
     "js",
@@ -28,8 +28,8 @@
     "types",
     "type",
     "data",
-    "proto",
-    "prototype",
+    "getter",
+    "setter",
     "props",
     "properties",
     "property",
