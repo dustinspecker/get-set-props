@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && node test.js",
+    "test": "xo && ava",
     "generate": "node generate.js"
   },
   "main": "get-set-props.json",
@@ -38,7 +38,7 @@
     "json"
   ],
   "devDependencies": {
-    "ava": "0.0.4",
+    "ava": "0.4.2",
     "js-types": "^1.0.0",
     "xo": "*"
   }
