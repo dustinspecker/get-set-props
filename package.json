@@ -38,7 +38,7 @@
     "json"
   ],
   "devDependencies": {
-    "ava": "0.6.1",
+    "ava": "^0.6.1",
     "js-types": "^1.0.0",
     "xo": "*"
   }
