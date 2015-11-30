@@ -7,5 +7,4 @@ test(function (t) {
 	t.assert(getSetProps.hasOwnProperty('Array'));
 	t.assert(getSetProps.hasOwnProperty('Number'));
 	t.assert(getSetProps.Error.indexOf('stack') !== -1);
-	t.end();
 });
