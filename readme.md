@@ -1,4 +1,4 @@
-# get-set-props [![Build Status](https://travis-ci.org/dustinspecker/get-set-props.svg?branch=master)](https://travis-ci.org/dustinspecker/get-set-props)
+# get-set-props
 
 > List of getter/setter properties for [JavaScript types](https://github.com/sindresorhus/js-types)
 
