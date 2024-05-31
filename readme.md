@@ -17,7 +17,7 @@ $ npm install --save get-set-props
 ## Usage
 
 ```js
-var getSetProps = require('get-set-props');
+import getSetProps from 'get-set-props';
 
 console.log(getSetProps);
 /*
