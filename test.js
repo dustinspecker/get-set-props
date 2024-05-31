@@ -1,10 +1,9 @@
-'use strict';
 import test from 'ava';
-import getSetProps from './get-set-props';
+import getSetProps from './index.js';
 
-test(t => {
+test('get-set-props', t => {
 	t.true(Object.keys(getSetProps).length > 0);
-	t.truthy(getSetProps.hasOwnProperty('Array'));
-	t.truthy(getSetProps.hasOwnProperty('Number'));
-	t.true(getSetProps.Error.indexOf('stack') !== -1);
+	t.truthy(Object.prototype.hasOwnProperty.call(getSetProps, 'Array'));
+	t.truthy(Object.prototype.hasOwnProperty.call(getSetProps, 'Number'));
+	t.true(getSetProps.Error.includes('stack'));
 });

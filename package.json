@@ -12,12 +12,14 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "type": "module",
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "generate": "node generate.js"
   },
-  "main": "get-set-props.json",
+  "main": "index.js",
   "files": [
+    "index.js",
     "get-set-props.json"
   ],
   "keywords": [
@@ -38,8 +40,7 @@
     "json"
   ],
   "devDependencies": {
-    "ava": "^0.14.0",
-    "js-types": "^1.0.0",
-    "xo": "*"
+    "ava": "^6.1.3",
+    "js-types": "^4.0.0"
   }
 }
